@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size:18px;
+    display:flex; 
+    flex-direction:column; 
+    justify-content:center;
+    min-height:100vh;
+
+}
+
+/* .container{
+    display:flex;
+    flex-direction:row;
+} */
+
+.card{
+    /* box-shadow: hsl(241, 81%, 54%) 1.95px 1.95px 2.6px; */
+}
+
+.card-left{
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+   
+    
+}
+
+
+.result{
+    color:hsl(241, 100%, 89%);
+}
+
+.circle{
+    border-radius: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 160px;
+    height: 160px;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0))
+}
+
+.circle-76{
+    font-size:52px;
+    font-weight:800;
+    color: hsl(221, 100%, 96%);
+    margin-bottom:-10px;
+}
+
+.circle-100{
+    font-size:12px;
+    color:hsl(241, 100%, 89%);
+}
+
+.great{
+    color:hsl(221, 100%, 96%);
+}
+
+.desc{
+    color:hsl(241, 100%, 89%);
+    font-size:14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.card-right{
+    background-color: hsl(0, 0%, 100%);
+    border:none
+}
+
+.summary{
+    font-weight:800;
+    color: hsl(224, 30%, 27%);
+    text-align:left;
+}
+
+.red{
+    background-color:hsl(0, 100%, 67%, 0.1);
+    color: hsl(0, 100%, 67%);
+    font-weight:700;
+}
+
+.yellow{
+    background-color:hsl(39, 100%, 56%, 0.1);
+    color: hsl(39, 100%, 56%);
+    font-weight:700;
+}
+
+.green{
+    background-color:hsl(166, 100%, 37%, 0.1);
+    color: hsl(166, 100%, 37%);
+    font-weight:700;
+}
+
+.blue{
+    background-color:hsl(234, 85%, 45%,0.1);
+    color: hsl(234, 85%, 45%);
+    font-weight:700;
+}
+
+.points{
+    color: hsl(224, 30%, 27%);
+}
+
+.one-hundred{
+    color: hsl(224, 30%, 27%, 0.4);
+}
+.button{
+    margin-top:2rem;
+    
+}
+
+
+.continue{
+    font-weight:700;
+    background-color:hsl(224, 30%, 27%);
+    color:hsl(221, 100%, 96%);
+    padding: 10px 0;
+    font-size:16px;
+    border:none;
+}
+
+.continue:hover{
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    color:hsl(221, 100%, 96%);
+}
+
